@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/Ilmir2018/React-js-lessons#readme",
   "dependencies": {
+    "material-ui": "^0.20.2",
     "webpack": "^4.33.0",
     "webpack-cli": "^3.3.2"
   },
