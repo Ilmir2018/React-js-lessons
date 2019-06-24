@@ -1,20 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import MessageField from './components/MessageField';
+import { BrowserRouter } from 'react-router-dom';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-
-
-// let counter = 1;
-
-// const component = (counter) = <ul>
-//     <li style={{ color: 'red' }}>Урок1. Настраиваем среду разработки</li>
-//     <li>Урок2. Погружаемся в React.</li>
-//     <li>Счётчик: { counter }</li>;
-// </ul>
+import App from './components/App';
 
 ReactDOM.render(
-    <MuiThemeProvider>
-        <MessageField />
-    </MuiThemeProvider>,
+    <BrowserRouter>
+        <MuiThemeProvider>
+            <App />
+        </MuiThemeProvider>
+    </BrowserRouter>,
     document.getElementById('root'),
 );
